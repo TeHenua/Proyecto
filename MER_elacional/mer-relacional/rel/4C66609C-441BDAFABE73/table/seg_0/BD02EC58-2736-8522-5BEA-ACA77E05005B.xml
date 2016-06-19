@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD02EC58-2736-8522-5BEA-ACA77E05005B" name="Viaje">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>CA51664B-E0DC-4212-F8E6-304E6C8FBB64</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_albaran" id="8AC05723-7205-8866-6E71-F488DAE8895E">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>A16BFA1B-359D-98EC-66DE-B788A0341E9A</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="h_salida" id="DA4D6434-7204-AB93-D417-07464E7E8CDB">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>5C855881-71FB-1294-334D-0C8217C5DF3C</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="h_llegada" id="6EFB3AA8-3843-1643-4684-0B9D6F1A7A24">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>621C18F8-BDCD-8A78-ACBB-E14CBDA3769D</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="88C650BC-9AEF-3850-2560-B792B103194F">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>90874A39-92CC-D763-A0E7-406001460C00</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parte_id" id="45562FB8-3AF9-BBFA-4F24-C29CF47DFB8B">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>78C8091B-DA47-AE36-0DC9-4896C16A8307</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14E8FC8D-87BB-F182-BF9A-D5E054D480CB" referredColumn="676945C4-B5E2-A090-46E2-2ECC0702C54D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A55FF22-31C1-4A24-8263-9B9EDA1FF347" name="Viaje_PK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>FE84FF3F-A241-F461-2D9D-5DC06C43B9E4</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC05723-7205-8866-6E71-F488DAE8895E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F5DE25B-2D28-AAF6-9256-A28D9BBBE98F" name="Viaje_Parte_FK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:52 UTC</createdTime>
+<generatorID>DF28FD9F-B77B-CD17-86C6-2D940F0752B5</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45562FB8-3AF9-BBFA-4F24-C29CF47DFB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

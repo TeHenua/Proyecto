@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CA541A5-CA3F-596D-B715-42E35478E733" name="Logistica">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:15:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<engineerTo>
+<item key="4C66609C-4FC8-7F11-189F-441BDAFABE73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

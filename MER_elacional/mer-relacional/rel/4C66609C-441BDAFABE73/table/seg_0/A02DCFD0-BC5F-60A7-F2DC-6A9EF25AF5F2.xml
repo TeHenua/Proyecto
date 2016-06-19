@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A02DCFD0-BC5F-60A7-F2DC-6A9EF25AF5F2" name="Centro">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>47D41B96-99E0-E321-3FD0-01BF66BA9527</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="303612AA-51AC-1825-C7B3-34CD60C326B2">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>18B84B3E-E2DE-8C13-24E8-EBD956560E2D</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B321965E-6764-C04E-34C5-5BAF7A1F6B39">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>FF62656B-F67D-CFA3-B06B-E0CB430DAEDF</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="5FB3F205-EA5B-908A-573E-3AB5E4FFE597">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>1B1CD100-6D9A-5407-CC29-DA2BE11F204B</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="C5128F6F-CD18-2E93-17B1-9A1C59BFA995">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>2FD9A9F9-13F5-F43A-ABA6-486E287EA549</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="473E4756-F69B-8BA0-9691-6C92064CEB73">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>A3C6231E-4802-AF88-4ECF-59AE9D5132DB</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_postal" id="E17E39ED-3688-8499-EFB1-C33257BDDAAA">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>0139EE51-1C1D-9296-AABE-24B58064C906</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="3C194AF3-52AF-027A-8641-67A327197CE9">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>04D94108-F2DE-AD1A-064F-750A2E52EEBF</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provincia" id="F482F7E2-80EF-1262-7C91-B690106EF537">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>6498ADD4-43D5-4228-F218-09E126E7F88B</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADBF9D9F-3D86-3427-2A73-9E228408FE1B" name="Centro_PK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>F48B2FC3-4B51-E7FC-5362-8FEF729D3615</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303612AA-51AC-1825-C7B3-34CD60C326B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

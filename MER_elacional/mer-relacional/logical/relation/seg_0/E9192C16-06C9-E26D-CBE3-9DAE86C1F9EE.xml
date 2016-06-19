@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realiza" directorySegmentName="seg_0" id="E9192C16-06C9-E26D-CBE3-9DAE86C1F9EE">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:17:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<engineerTo>
+<item key="4C66609C-4FC8-7F11-189F-441BDAFABE73" value="true"/>
+</engineerTo>
+<sourcePk>AF470329-2A74-26A6-7050-954861EB4362</sourcePk>
+<targetPk>9082E382-3E92-1C53-4D54-243D21004C37</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A9EC6D18-F3DE-8D69-18E3-BC378C529BFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

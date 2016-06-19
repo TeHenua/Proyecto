@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D305E9AC-48E2-3B47-25DB-D49EBDA12E52" name="Logistica">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<ordsAlias>trabajador</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="C54D233C-99D1-C4A8-1E94-ADDF8C8A1382">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>4749F928-30EC-2066-3D84-753DA3DB73F2</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A2AC56D1-4B7B-E894-7A82-424006A2CE7F">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>581111DD-3804-0A0E-617D-475C674DED5D</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ape1" id="19661D96-8C75-6479-52D3-F58059FADDC2">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>19BF92B3-1AF1-30DD-4915-988E8854D4F5</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ape2" id="D07E81CF-039D-ACB1-43E9-71F512B21C22">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>3E75F775-1FC1-DCE4-B46B-8882BA45C213</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="65174EE2-8B6B-CBBB-C427-F03EBD71AB34">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>0CC9B0A3-1A7E-7B55-7499-DFF854809476</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portal" id="1A6961D0-C1C7-F876-8C72-E8B929D988F1">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>7AF68610-06F1-02E5-95ED-5C6F2CB48B3D</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso" id="9F90B379-6946-F6BB-028D-990118D86CC8">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>9B68EA0C-E9A9-A6E6-F1D8-9D45B7AECA20</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mano" id="7017ACEC-4549-6FA6-92B0-0ACC23F1D26A">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>ED333707-D898-6B2C-DBB1-8B318FE0D4D4</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telpersonal" id="DE867C5B-7588-3F34-85D3-D1A1BD9A088A">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>6FADEAFD-D927-7DB0-7E68-C247E8CA2772</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telempresa" id="C6C38C35-6576-B4AC-FEFB-E8A54444ED08">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>1CC14092-65EF-71D9-9554-C654AC40366B</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechanac" id="F69E106F-86DE-BDD0-B05A-2904C6FD5307">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>051D65D6-7AF7-B87D-9597-BEE0F8363542</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="A34D473E-1A65-F40F-0F3D-011EA5C9A411">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>B12FB79A-24F2-6739-9F73-1C5AF11FD9A7</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_id" id="1E95D765-DE8E-F3CA-25CB-6CB41C2E35E4">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>7EB6ECAF-2AE4-A1D2-618C-610180E58045</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62D72241-B388-3C9F-7EE1-38D865655265" referredColumn="303612AA-51AC-1825-C7B3-34CD60C326B2"/>
+</associations>
+</Column>
+<Column name="Usuario_usuario" id="4EFDFBA1-92FF-0F62-04BB-F3957F53B0E7">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>381EB8A1-7A38-A68E-7BA7-A6F4DF73D413</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C69BD7B6-31F1-7D3A-D206-EA6F322E0E62" referredColumn="B468FC61-7475-4AFF-1998-638CC9F3D555"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F0E719C-7B62-1827-81C8-405B928775D9" name="Administracionv2_PK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>9082E382-3E92-1C53-4D54-243D21004C37</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C54D233C-99D1-C4A8-1E94-ADDF8C8A1382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBBE5D65-CBAB-3E37-B651-DC0525767670" name="Administracionv2_Usuario_usuario_IDX">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFDFBA1-92FF-0F62-04BB-F3957F53B0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CA054A1-7678-645D-8E10-41911E779381" name="Administracionv2_Centro_FK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>8C31E983-00C6-ED2B-5448-884CF329D69E</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E95D765-DE8E-F3CA-25CB-6CB41C2E35E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC44FC83-6A15-ACA4-E6F6-6D7AF0895FC4" name="Administracionv2_Usuario_FK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:20:57 UTC</createdTime>
+<generatorID>3C39F201-4F49-B539-F8E5-73C0FE6712F3</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFDFBA1-92FF-0F62-04BB-F3957F53B0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

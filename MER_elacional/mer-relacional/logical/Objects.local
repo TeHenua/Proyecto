@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9399EE3D-2B52-0F1A-6092-22D183838F92" name="Administracion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="47D41B96-99E0-E321-3FD0-01BF66BA9527" name="Centro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2CA541A5-CA3F-596D-B715-42E35478E733" name="Logistica" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A9EC6D18-F3DE-8D69-18E3-BC378C529BFC" name="Parte" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB" name="Trabajador" seqName="seg_0"/>
+   <object objectType="Entity" objectID="55A5727D-90A9-3921-A87C-A63393FD18D2" name="Usuario" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CA51664B-E0DC-4212-F8E6-304E6C8FBB64" name="Viaje" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DF28FD9F-B77B-CD17-86C6-2D940F0752B5" name="Hacen" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8C31E983-00C6-ED2B-5448-884CF329D69E" name="Tienen" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E9192C16-06C9-E26D-CBE3-9DAE86C1F9EE" name="realiza" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3C39F201-4F49-B539-F8E5-73C0FE6712F3" name="tiene" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="8EEDDF6F-51D3-9860-A2E6-7B6482110CD7" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="EBF4ECB3-930E-A61D-FC95-E76F57BC8BC1" name="Hierarchy_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

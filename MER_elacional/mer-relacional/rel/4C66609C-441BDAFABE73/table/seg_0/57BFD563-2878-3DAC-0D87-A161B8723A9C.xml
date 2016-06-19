@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57BFD563-2878-3DAC-0D87-A161B8723A9C" name="Usuario">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:27:17 UTC</createdTime>
+<generatorID>55A5727D-90A9-3921-A87C-A63393FD18D2</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario" id="B468FC61-7475-4AFF-1998-638CC9F3D555">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:27:17 UTC</createdTime>
+<generatorID>1268D70B-8E05-7E42-C78A-E0316DDD8BAE</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenia" id="88D5C600-98F7-C62F-927F-C6CBA1787558">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:27:17 UTC</createdTime>
+<generatorID>ACD67F7D-3A69-6BEA-62D8-E63ABCC83087</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trabajador_dni" id="D50B7D1F-CC5E-4CB4-7CA0-30FBB5683CF6">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:27:17 UTC</createdTime>
+<generatorID>BF120B4B-AD5A-D483-7BB0-40B8EB295C8E</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2066ABBE-E8C0-A817-E61A-EE1F4BDA9F3F" name="Usuario_PK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:27:17 UTC</createdTime>
+<generatorID>5718DE25-F76E-D525-CBFA-97AA351148F8</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B468FC61-7475-4AFF-1998-638CC9F3D555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

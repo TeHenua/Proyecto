@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDE38CCD-BBD6-7D9D-EF76-93C935268E6D" name="Parte">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>A9EC6D18-F3DE-8D69-18E3-BC378C529BFC</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="676945C4-B5E2-A090-46E2-2ECC0702C54D">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>1FEF46C7-595D-741E-9C77-F9E59807AAAA</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_principio" id="F1EF0CE6-74B5-CC78-0628-6B590542509E">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>ACA3B300-0A69-DDF1-8FE1-5938F5EE7290</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_llegada" id="5A7F158D-E427-CF58-69AD-4C5BC91DB5A7">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>E9236637-F49C-55D2-1682-20281775AE83</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abierto" id="6778A260-85AD-3B5E-5C5B-ABEE699FFD01">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>30E8C6EA-7322-D873-9F88-EA4D2D46FD78</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validado" id="8E079056-A558-95F8-BF92-DFBF7F17D1A6">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>87BE60F4-3454-EA1D-D8E5-760AFECCA877</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="FD4DFFE5-6AFF-4375-388E-35B8884D905F">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>49B91CB6-44D6-0829-1F98-52A7A4FEC818</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gasoil" id="8EA0ABF8-CE9D-7214-D21E-6C083CA6C895">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>90165AB3-4915-DC11-DA67-88AF5E37A8A4</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autopista" id="568A73A8-457A-3A45-F1AD-0B70A24EE604">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>9D0ABE09-D0EB-D5A0-2C5F-085381506D86</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dietas" id="BDF0AD27-94F1-0320-E88F-6AD1B185EF60">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>DA3C88BB-2BE0-1CB4-4FE1-572565C2F03F</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otros" id="655EA2C5-2096-A2E8-447E-3B0A88262987">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>2F399F8E-64B6-1560-1180-913E7578D24B</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incidencias" id="C67722AC-9EB7-D619-8BD2-A60DAD292DCD">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>17C61EB8-E765-51A2-3385-9EB3FB529C3D</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logistica_dni" id="E63B9110-18D5-46B4-8115-FD8E0DF6E993">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>BFD22594-66BC-9595-1F46-01B033C51062</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93FFAEF3-C0C7-926F-AF34-C68B1003AF94" referredColumn="C54D233C-99D1-C4A8-1E94-ADDF8C8A1382"/>
+</associations>
+</Column>
+<Column name="Administracion_dni" id="EA72D2DB-69EC-005B-DC31-34BFFAA71ED9">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>BF027E71-9046-D4D5-D4A4-3A8A81EAF86E</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A13D884F-0244-B2A2-8E24-89BB1422A32C" referredColumn="58234C42-D196-96EF-E337-1C249ECA3255"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2E75724-2BD0-533D-52B6-82FB2BA202B1" name="Parte_PK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-03-09 20:01:51 UTC</createdTime>
+<generatorID>AF470329-2A74-26A6-7050-954861EB4362</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676945C4-B5E2-A090-46E2-2ECC0702C54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BA29C76-B3C9-93B7-B9E0-FF3A76ECF8C9" name="Parte_Logistica_FK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-09 20:26:13 UTC</createdTime>
+<generatorID>9082E382-3E92-1C53-4D54-243D21004C37</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63B9110-18D5-46B4-8115-FD8E0DF6E993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C08358-71C6-34A2-1E86-ADEAEDFAFF99" name="Parte_Administracion_FK">
+<createdBy>TeHenua</createdBy>
+<createdTime>2016-06-19 15:26:24 UTC</createdTime>
+<generatorID>9082E382-3E92-1C53-4D54-243D21004C37</generatorID>
+<ownerDesignName>mer-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA72D2DB-69EC-005B-DC31-34BFFAA71ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mer-relacional" id="65C2802B-A886-249A-6A57-93AC88CD1A7B" version="3.5">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-02-26 08:53:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>65C2802B-A886-249A-6A57-93AC88CD1A7B</designId>
+</OSDM_Design>
